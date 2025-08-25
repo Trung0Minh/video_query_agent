@@ -1,0 +1,39 @@
+# --- Core Frameworks ---
+langchain==0.2.16
+langchain-core==0.2.40
+langchain-community==0.2.16
+langchain-google-genai==1.0.10
+langchain-google-vertexai==1.0.8
+langgraph==0.1.19
+
+# --- API Server ---
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+
+# --- Vector Database Client ---
+qdrant-client==1.9.1
+
+# --- Data Handling & Utilities ---
+# Environment variables
+python-dotenv==1.0.1
+
+# Pydantic v2 - stable versions
+pydantic==2.7.4
+pydantic-settings==2.3.4
+
+# Core data science packages
+numpy==1.26.4
+pandas==2.2.2
+
+# --- Google Cloud & Generative AI ---
+google-generativeai==0.7.2
+google-cloud-aiplatform==1.56.0
+
+httpx>=0.28.1,<1.0.0
+typing-extensions>=4.8.0
+
+transformers==4.44.2
+accelerate==0.33.0
+bitsandbytes==0.43.3
+
+sentence-transformers==2.7.0
