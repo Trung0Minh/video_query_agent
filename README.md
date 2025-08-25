@@ -1,9 +1,5 @@
 # Video-Query-Agent
 
-A simple pipeline to build and query video data using Qdrant and AI models.
-
----
-
 ## Getting Started
 
 ### 1. Run Qdrant with Docker
