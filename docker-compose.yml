@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant
+    restart: always   # tự bật lại khi container/server restart
+    ports:
+      - "6333:6333"   # REST API
+      - "6334:6334"   # gRPC API
+    volumes:
+      - .data/processed_data/qdrant_storage:/qdrant/storage   # lưu dữ liệu ra ngoài
