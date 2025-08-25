@@ -11,7 +11,7 @@ docker-compose up -d
 ```
 
 - This will spin up a Qdrant instance on ports `6333` (REST API) and `6334` (gRPC API).  
-- By default, data will be mounted to `./qdrant_storage`.  
+- By default, data will be mounted to `./data/processed_data/qdrant_storage`.  
 - If you **don’t want to persist data**, just comment out the `volumes` section in `docker-compose.yml`.
 
 Check if Qdrant is running:
