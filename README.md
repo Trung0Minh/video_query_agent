@@ -66,16 +66,6 @@ python main.py
 
 ---
 
-## Summary
-1. Start Qdrant (`docker-compose up -d`)  
-2. Place your data in `raw_data/`  
-3. Add your API key to `.env`  
-4. Install dependencies  
-5. Build databases with `run_builder.py`  
-6. Launch with `main.py`  
-
----
-
 ## Notes
 - Make sure Docker is running before executing `docker-compose up`.  
 - If you stop and restart your computer, Qdrant will automatically restart (thanks to the `restart: always` option in `docker-compose.yml`).  
